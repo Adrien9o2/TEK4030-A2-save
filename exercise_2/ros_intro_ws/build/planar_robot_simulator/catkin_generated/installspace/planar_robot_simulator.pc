@@ -1,4 +1,4 @@
-prefix=/home/adrienk/Bureau/ros_intro_ws/install
+prefix=/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/install
 
 Name: planar_robot_simulator
 Description: Description of planar_robot_simulator

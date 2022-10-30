@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/adrienk/Bureau/ros_intro_ws/src/tek4030_ros_intro/src/hallo_world.cpp
+/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/src/tek4030_ros_intro/src/hallo_world.cpp
 ros/ros.h
 -
 

@@ -6,5 +6,5 @@ CXX_FLAGS =   -std=c++11
 
 CXX_DEFINES = -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\"planar_robot_simulator\"
 
-CXX_INCLUDES = -I/home/adrienk/Bureau/ros_intro_ws/src/planar_robot_simulator/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -isystem /usr/include/opencv 
+CXX_INCLUDES = -I/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/src/planar_robot_simulator/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -isystem /usr/include/opencv 
 

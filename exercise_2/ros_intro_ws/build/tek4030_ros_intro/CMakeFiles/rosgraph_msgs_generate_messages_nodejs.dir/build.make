@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/adrienk/Bureau/ros_intro_ws/src
+CMAKE_SOURCE_DIR = /home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/adrienk/Bureau/ros_intro_ws/build
+CMAKE_BINARY_DIR = /home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/build
 
 # Utility rule file for rosgraph_msgs_generate_messages_nodejs.
 
@@ -63,10 +63,10 @@ tek4030_ros_intro/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build: r
 .PHONY : tek4030_ros_intro/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build
 
 tek4030_ros_intro/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/clean:
-	cd /home/adrienk/Bureau/ros_intro_ws/build/tek4030_ros_intro && $(CMAKE_COMMAND) -P CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/cmake_clean.cmake
+	cd /home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/build/tek4030_ros_intro && $(CMAKE_COMMAND) -P CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/cmake_clean.cmake
 .PHONY : tek4030_ros_intro/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/clean
 
 tek4030_ros_intro/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/depend:
-	cd /home/adrienk/Bureau/ros_intro_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/adrienk/Bureau/ros_intro_ws/src /home/adrienk/Bureau/ros_intro_ws/src/tek4030_ros_intro /home/adrienk/Bureau/ros_intro_ws/build /home/adrienk/Bureau/ros_intro_ws/build/tek4030_ros_intro /home/adrienk/Bureau/ros_intro_ws/build/tek4030_ros_intro/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/src /home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/src/tek4030_ros_intro /home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/build /home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/build/tek4030_ros_intro /home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/build/tek4030_ros_intro/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : tek4030_ros_intro/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/depend
 

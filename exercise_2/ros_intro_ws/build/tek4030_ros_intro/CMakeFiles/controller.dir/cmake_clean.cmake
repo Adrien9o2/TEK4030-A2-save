@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/controller.dir/src/controller.cpp.o"
-  "/home/adrienk/Bureau/ros_intro_ws/devel/lib/tek4030_ros_intro/controller.pdb"
-  "/home/adrienk/Bureau/ros_intro_ws/devel/lib/tek4030_ros_intro/controller"
+  "/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/devel/lib/tek4030_ros_intro/controller.pdb"
+  "/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/devel/lib/tek4030_ros_intro/controller"
 )
 
 # Per-language clean rules from dependency scanning.

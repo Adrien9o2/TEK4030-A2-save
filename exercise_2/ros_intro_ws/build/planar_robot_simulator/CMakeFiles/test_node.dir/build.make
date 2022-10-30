@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/adrienk/Bureau/ros_intro_ws/src
+CMAKE_SOURCE_DIR = /home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/adrienk/Bureau/ros_intro_ws/build
+CMAKE_BINARY_DIR = /home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/build
 
 # Include any dependencies generated for this target.
 include planar_robot_simulator/CMakeFiles/test_node.dir/depend.make
@@ -58,17 +58,17 @@ include planar_robot_simulator/CMakeFiles/test_node.dir/progress.make
 include planar_robot_simulator/CMakeFiles/test_node.dir/flags.make
 
 planar_robot_simulator/CMakeFiles/test_node.dir/test/test_node.cpp.o: planar_robot_simulator/CMakeFiles/test_node.dir/flags.make
-planar_robot_simulator/CMakeFiles/test_node.dir/test/test_node.cpp.o: /home/adrienk/Bureau/ros_intro_ws/src/planar_robot_simulator/test/test_node.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adrienk/Bureau/ros_intro_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object planar_robot_simulator/CMakeFiles/test_node.dir/test/test_node.cpp.o"
-	cd /home/adrienk/Bureau/ros_intro_ws/build/planar_robot_simulator && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_node.dir/test/test_node.cpp.o -c /home/adrienk/Bureau/ros_intro_ws/src/planar_robot_simulator/test/test_node.cpp
+planar_robot_simulator/CMakeFiles/test_node.dir/test/test_node.cpp.o: /home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/src/planar_robot_simulator/test/test_node.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object planar_robot_simulator/CMakeFiles/test_node.dir/test/test_node.cpp.o"
+	cd /home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/build/planar_robot_simulator && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_node.dir/test/test_node.cpp.o -c /home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/src/planar_robot_simulator/test/test_node.cpp
 
 planar_robot_simulator/CMakeFiles/test_node.dir/test/test_node.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test_node.dir/test/test_node.cpp.i"
-	cd /home/adrienk/Bureau/ros_intro_ws/build/planar_robot_simulator && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/adrienk/Bureau/ros_intro_ws/src/planar_robot_simulator/test/test_node.cpp > CMakeFiles/test_node.dir/test/test_node.cpp.i
+	cd /home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/build/planar_robot_simulator && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/src/planar_robot_simulator/test/test_node.cpp > CMakeFiles/test_node.dir/test/test_node.cpp.i
 
 planar_robot_simulator/CMakeFiles/test_node.dir/test/test_node.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test_node.dir/test/test_node.cpp.s"
-	cd /home/adrienk/Bureau/ros_intro_ws/build/planar_robot_simulator && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adrienk/Bureau/ros_intro_ws/src/planar_robot_simulator/test/test_node.cpp -o CMakeFiles/test_node.dir/test/test_node.cpp.s
+	cd /home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/build/planar_robot_simulator && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/src/planar_robot_simulator/test/test_node.cpp -o CMakeFiles/test_node.dir/test/test_node.cpp.s
 
 planar_robot_simulator/CMakeFiles/test_node.dir/test/test_node.cpp.o.requires:
 
@@ -88,92 +88,92 @@ test_node_OBJECTS = \
 # External object files for target test_node
 test_node_EXTERNAL_OBJECTS =
 
-/home/adrienk/Bureau/ros_intro_ws/devel/lib/planar_robot_simulator/test_node: planar_robot_simulator/CMakeFiles/test_node.dir/test/test_node.cpp.o
-/home/adrienk/Bureau/ros_intro_ws/devel/lib/planar_robot_simulator/test_node: planar_robot_simulator/CMakeFiles/test_node.dir/build.make
-/home/adrienk/Bureau/ros_intro_ws/devel/lib/planar_robot_simulator/test_node: /opt/ros/melodic/lib/libroscpp.so
-/home/adrienk/Bureau/ros_intro_ws/devel/lib/planar_robot_simulator/test_node: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
-/home/adrienk/Bureau/ros_intro_ws/devel/lib/planar_robot_simulator/test_node: /opt/ros/melodic/lib/librosconsole.so
-/home/adrienk/Bureau/ros_intro_ws/devel/lib/planar_robot_simulator/test_node: /opt/ros/melodic/lib/librosconsole_log4cxx.so
-/home/adrienk/Bureau/ros_intro_ws/devel/lib/planar_robot_simulator/test_node: /opt/ros/melodic/lib/librosconsole_backend_interface.so
-/home/adrienk/Bureau/ros_intro_ws/devel/lib/planar_robot_simulator/test_node: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/home/adrienk/Bureau/ros_intro_ws/devel/lib/planar_robot_simulator/test_node: /usr/lib/x86_64-linux-gnu/libboost_regex.so
-/home/adrienk/Bureau/ros_intro_ws/devel/lib/planar_robot_simulator/test_node: /opt/ros/melodic/lib/libxmlrpcpp.so
-/home/adrienk/Bureau/ros_intro_ws/devel/lib/planar_robot_simulator/test_node: /opt/ros/melodic/lib/libroscpp_serialization.so
-/home/adrienk/Bureau/ros_intro_ws/devel/lib/planar_robot_simulator/test_node: /opt/ros/melodic/lib/librostime.so
-/home/adrienk/Bureau/ros_intro_ws/devel/lib/planar_robot_simulator/test_node: /opt/ros/melodic/lib/libcpp_common.so
-/home/adrienk/Bureau/ros_intro_ws/devel/lib/planar_robot_simulator/test_node: /usr/lib/x86_64-linux-gnu/libboost_system.so
-/home/adrienk/Bureau/ros_intro_ws/devel/lib/planar_robot_simulator/test_node: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-/home/adrienk/Bureau/ros_intro_ws/devel/lib/planar_robot_simulator/test_node: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
-/home/adrienk/Bureau/ros_intro_ws/devel/lib/planar_robot_simulator/test_node: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-/home/adrienk/Bureau/ros_intro_ws/devel/lib/planar_robot_simulator/test_node: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
-/home/adrienk/Bureau/ros_intro_ws/devel/lib/planar_robot_simulator/test_node: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/adrienk/Bureau/ros_intro_ws/devel/lib/planar_robot_simulator/test_node: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
-/home/adrienk/Bureau/ros_intro_ws/devel/lib/planar_robot_simulator/test_node: /home/adrienk/Bureau/ros_intro_ws/devel/lib/libplanar_robot_simulator.so
-/home/adrienk/Bureau/ros_intro_ws/devel/lib/planar_robot_simulator/test_node: /usr/lib/x86_64-linux-gnu/libopencv_shape.so.3.2.0
-/home/adrienk/Bureau/ros_intro_ws/devel/lib/planar_robot_simulator/test_node: /usr/lib/x86_64-linux-gnu/libopencv_stitching.so.3.2.0
-/home/adrienk/Bureau/ros_intro_ws/devel/lib/planar_robot_simulator/test_node: /usr/lib/x86_64-linux-gnu/libopencv_superres.so.3.2.0
-/home/adrienk/Bureau/ros_intro_ws/devel/lib/planar_robot_simulator/test_node: /usr/lib/x86_64-linux-gnu/libopencv_videostab.so.3.2.0
-/home/adrienk/Bureau/ros_intro_ws/devel/lib/planar_robot_simulator/test_node: /usr/lib/x86_64-linux-gnu/libopencv_aruco.so.3.2.0
-/home/adrienk/Bureau/ros_intro_ws/devel/lib/planar_robot_simulator/test_node: /usr/lib/x86_64-linux-gnu/libopencv_bgsegm.so.3.2.0
-/home/adrienk/Bureau/ros_intro_ws/devel/lib/planar_robot_simulator/test_node: /usr/lib/x86_64-linux-gnu/libopencv_bioinspired.so.3.2.0
-/home/adrienk/Bureau/ros_intro_ws/devel/lib/planar_robot_simulator/test_node: /usr/lib/x86_64-linux-gnu/libopencv_ccalib.so.3.2.0
-/home/adrienk/Bureau/ros_intro_ws/devel/lib/planar_robot_simulator/test_node: /usr/lib/x86_64-linux-gnu/libopencv_datasets.so.3.2.0
-/home/adrienk/Bureau/ros_intro_ws/devel/lib/planar_robot_simulator/test_node: /usr/lib/x86_64-linux-gnu/libopencv_dpm.so.3.2.0
-/home/adrienk/Bureau/ros_intro_ws/devel/lib/planar_robot_simulator/test_node: /usr/lib/x86_64-linux-gnu/libopencv_face.so.3.2.0
-/home/adrienk/Bureau/ros_intro_ws/devel/lib/planar_robot_simulator/test_node: /usr/lib/x86_64-linux-gnu/libopencv_freetype.so.3.2.0
-/home/adrienk/Bureau/ros_intro_ws/devel/lib/planar_robot_simulator/test_node: /usr/lib/x86_64-linux-gnu/libopencv_fuzzy.so.3.2.0
-/home/adrienk/Bureau/ros_intro_ws/devel/lib/planar_robot_simulator/test_node: /usr/lib/x86_64-linux-gnu/libopencv_hdf.so.3.2.0
-/home/adrienk/Bureau/ros_intro_ws/devel/lib/planar_robot_simulator/test_node: /usr/lib/x86_64-linux-gnu/libopencv_line_descriptor.so.3.2.0
-/home/adrienk/Bureau/ros_intro_ws/devel/lib/planar_robot_simulator/test_node: /usr/lib/x86_64-linux-gnu/libopencv_optflow.so.3.2.0
-/home/adrienk/Bureau/ros_intro_ws/devel/lib/planar_robot_simulator/test_node: /usr/lib/x86_64-linux-gnu/libopencv_plot.so.3.2.0
-/home/adrienk/Bureau/ros_intro_ws/devel/lib/planar_robot_simulator/test_node: /usr/lib/x86_64-linux-gnu/libopencv_reg.so.3.2.0
-/home/adrienk/Bureau/ros_intro_ws/devel/lib/planar_robot_simulator/test_node: /usr/lib/x86_64-linux-gnu/libopencv_saliency.so.3.2.0
-/home/adrienk/Bureau/ros_intro_ws/devel/lib/planar_robot_simulator/test_node: /usr/lib/x86_64-linux-gnu/libopencv_stereo.so.3.2.0
-/home/adrienk/Bureau/ros_intro_ws/devel/lib/planar_robot_simulator/test_node: /usr/lib/x86_64-linux-gnu/libopencv_structured_light.so.3.2.0
-/home/adrienk/Bureau/ros_intro_ws/devel/lib/planar_robot_simulator/test_node: /usr/lib/x86_64-linux-gnu/libopencv_surface_matching.so.3.2.0
-/home/adrienk/Bureau/ros_intro_ws/devel/lib/planar_robot_simulator/test_node: /usr/lib/x86_64-linux-gnu/libopencv_text.so.3.2.0
-/home/adrienk/Bureau/ros_intro_ws/devel/lib/planar_robot_simulator/test_node: /usr/lib/x86_64-linux-gnu/libopencv_ximgproc.so.3.2.0
-/home/adrienk/Bureau/ros_intro_ws/devel/lib/planar_robot_simulator/test_node: /usr/lib/x86_64-linux-gnu/libopencv_xobjdetect.so.3.2.0
-/home/adrienk/Bureau/ros_intro_ws/devel/lib/planar_robot_simulator/test_node: /usr/lib/x86_64-linux-gnu/libopencv_xphoto.so.3.2.0
-/home/adrienk/Bureau/ros_intro_ws/devel/lib/planar_robot_simulator/test_node: /opt/ros/melodic/lib/libroscpp.so
-/home/adrienk/Bureau/ros_intro_ws/devel/lib/planar_robot_simulator/test_node: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
-/home/adrienk/Bureau/ros_intro_ws/devel/lib/planar_robot_simulator/test_node: /opt/ros/melodic/lib/librosconsole.so
-/home/adrienk/Bureau/ros_intro_ws/devel/lib/planar_robot_simulator/test_node: /opt/ros/melodic/lib/librosconsole_log4cxx.so
-/home/adrienk/Bureau/ros_intro_ws/devel/lib/planar_robot_simulator/test_node: /opt/ros/melodic/lib/librosconsole_backend_interface.so
-/home/adrienk/Bureau/ros_intro_ws/devel/lib/planar_robot_simulator/test_node: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/home/adrienk/Bureau/ros_intro_ws/devel/lib/planar_robot_simulator/test_node: /usr/lib/x86_64-linux-gnu/libboost_regex.so
-/home/adrienk/Bureau/ros_intro_ws/devel/lib/planar_robot_simulator/test_node: /opt/ros/melodic/lib/libxmlrpcpp.so
-/home/adrienk/Bureau/ros_intro_ws/devel/lib/planar_robot_simulator/test_node: /opt/ros/melodic/lib/libroscpp_serialization.so
-/home/adrienk/Bureau/ros_intro_ws/devel/lib/planar_robot_simulator/test_node: /opt/ros/melodic/lib/librostime.so
-/home/adrienk/Bureau/ros_intro_ws/devel/lib/planar_robot_simulator/test_node: /opt/ros/melodic/lib/libcpp_common.so
-/home/adrienk/Bureau/ros_intro_ws/devel/lib/planar_robot_simulator/test_node: /usr/lib/x86_64-linux-gnu/libboost_system.so
-/home/adrienk/Bureau/ros_intro_ws/devel/lib/planar_robot_simulator/test_node: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-/home/adrienk/Bureau/ros_intro_ws/devel/lib/planar_robot_simulator/test_node: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
-/home/adrienk/Bureau/ros_intro_ws/devel/lib/planar_robot_simulator/test_node: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-/home/adrienk/Bureau/ros_intro_ws/devel/lib/planar_robot_simulator/test_node: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
-/home/adrienk/Bureau/ros_intro_ws/devel/lib/planar_robot_simulator/test_node: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/adrienk/Bureau/ros_intro_ws/devel/lib/planar_robot_simulator/test_node: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
-/home/adrienk/Bureau/ros_intro_ws/devel/lib/planar_robot_simulator/test_node: /usr/lib/x86_64-linux-gnu/libopencv_video.so.3.2.0
-/home/adrienk/Bureau/ros_intro_ws/devel/lib/planar_robot_simulator/test_node: /usr/lib/x86_64-linux-gnu/libopencv_viz.so.3.2.0
-/home/adrienk/Bureau/ros_intro_ws/devel/lib/planar_robot_simulator/test_node: /usr/lib/x86_64-linux-gnu/libopencv_phase_unwrapping.so.3.2.0
-/home/adrienk/Bureau/ros_intro_ws/devel/lib/planar_robot_simulator/test_node: /usr/lib/x86_64-linux-gnu/libopencv_rgbd.so.3.2.0
-/home/adrienk/Bureau/ros_intro_ws/devel/lib/planar_robot_simulator/test_node: /usr/lib/x86_64-linux-gnu/libopencv_calib3d.so.3.2.0
-/home/adrienk/Bureau/ros_intro_ws/devel/lib/planar_robot_simulator/test_node: /usr/lib/x86_64-linux-gnu/libopencv_features2d.so.3.2.0
-/home/adrienk/Bureau/ros_intro_ws/devel/lib/planar_robot_simulator/test_node: /usr/lib/x86_64-linux-gnu/libopencv_flann.so.3.2.0
-/home/adrienk/Bureau/ros_intro_ws/devel/lib/planar_robot_simulator/test_node: /usr/lib/x86_64-linux-gnu/libopencv_objdetect.so.3.2.0
-/home/adrienk/Bureau/ros_intro_ws/devel/lib/planar_robot_simulator/test_node: /usr/lib/x86_64-linux-gnu/libopencv_ml.so.3.2.0
-/home/adrienk/Bureau/ros_intro_ws/devel/lib/planar_robot_simulator/test_node: /usr/lib/x86_64-linux-gnu/libopencv_highgui.so.3.2.0
-/home/adrienk/Bureau/ros_intro_ws/devel/lib/planar_robot_simulator/test_node: /usr/lib/x86_64-linux-gnu/libopencv_photo.so.3.2.0
-/home/adrienk/Bureau/ros_intro_ws/devel/lib/planar_robot_simulator/test_node: /usr/lib/x86_64-linux-gnu/libopencv_videoio.so.3.2.0
-/home/adrienk/Bureau/ros_intro_ws/devel/lib/planar_robot_simulator/test_node: /usr/lib/x86_64-linux-gnu/libopencv_imgcodecs.so.3.2.0
-/home/adrienk/Bureau/ros_intro_ws/devel/lib/planar_robot_simulator/test_node: /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.3.2.0
-/home/adrienk/Bureau/ros_intro_ws/devel/lib/planar_robot_simulator/test_node: /usr/lib/x86_64-linux-gnu/libopencv_core.so.3.2.0
-/home/adrienk/Bureau/ros_intro_ws/devel/lib/planar_robot_simulator/test_node: planar_robot_simulator/CMakeFiles/test_node.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/adrienk/Bureau/ros_intro_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/adrienk/Bureau/ros_intro_ws/devel/lib/planar_robot_simulator/test_node"
-	cd /home/adrienk/Bureau/ros_intro_ws/build/planar_robot_simulator && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/test_node.dir/link.txt --verbose=$(VERBOSE)
+/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/devel/lib/planar_robot_simulator/test_node: planar_robot_simulator/CMakeFiles/test_node.dir/test/test_node.cpp.o
+/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/devel/lib/planar_robot_simulator/test_node: planar_robot_simulator/CMakeFiles/test_node.dir/build.make
+/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/devel/lib/planar_robot_simulator/test_node: /opt/ros/melodic/lib/libroscpp.so
+/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/devel/lib/planar_robot_simulator/test_node: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/devel/lib/planar_robot_simulator/test_node: /opt/ros/melodic/lib/librosconsole.so
+/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/devel/lib/planar_robot_simulator/test_node: /opt/ros/melodic/lib/librosconsole_log4cxx.so
+/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/devel/lib/planar_robot_simulator/test_node: /opt/ros/melodic/lib/librosconsole_backend_interface.so
+/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/devel/lib/planar_robot_simulator/test_node: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/devel/lib/planar_robot_simulator/test_node: /usr/lib/x86_64-linux-gnu/libboost_regex.so
+/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/devel/lib/planar_robot_simulator/test_node: /opt/ros/melodic/lib/libxmlrpcpp.so
+/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/devel/lib/planar_robot_simulator/test_node: /opt/ros/melodic/lib/libroscpp_serialization.so
+/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/devel/lib/planar_robot_simulator/test_node: /opt/ros/melodic/lib/librostime.so
+/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/devel/lib/planar_robot_simulator/test_node: /opt/ros/melodic/lib/libcpp_common.so
+/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/devel/lib/planar_robot_simulator/test_node: /usr/lib/x86_64-linux-gnu/libboost_system.so
+/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/devel/lib/planar_robot_simulator/test_node: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/devel/lib/planar_robot_simulator/test_node: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
+/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/devel/lib/planar_robot_simulator/test_node: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/devel/lib/planar_robot_simulator/test_node: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
+/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/devel/lib/planar_robot_simulator/test_node: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/devel/lib/planar_robot_simulator/test_node: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
+/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/devel/lib/planar_robot_simulator/test_node: /home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/devel/lib/libplanar_robot_simulator.so
+/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/devel/lib/planar_robot_simulator/test_node: /usr/lib/x86_64-linux-gnu/libopencv_shape.so.3.2.0
+/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/devel/lib/planar_robot_simulator/test_node: /usr/lib/x86_64-linux-gnu/libopencv_stitching.so.3.2.0
+/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/devel/lib/planar_robot_simulator/test_node: /usr/lib/x86_64-linux-gnu/libopencv_superres.so.3.2.0
+/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/devel/lib/planar_robot_simulator/test_node: /usr/lib/x86_64-linux-gnu/libopencv_videostab.so.3.2.0
+/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/devel/lib/planar_robot_simulator/test_node: /usr/lib/x86_64-linux-gnu/libopencv_aruco.so.3.2.0
+/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/devel/lib/planar_robot_simulator/test_node: /usr/lib/x86_64-linux-gnu/libopencv_bgsegm.so.3.2.0
+/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/devel/lib/planar_robot_simulator/test_node: /usr/lib/x86_64-linux-gnu/libopencv_bioinspired.so.3.2.0
+/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/devel/lib/planar_robot_simulator/test_node: /usr/lib/x86_64-linux-gnu/libopencv_ccalib.so.3.2.0
+/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/devel/lib/planar_robot_simulator/test_node: /usr/lib/x86_64-linux-gnu/libopencv_datasets.so.3.2.0
+/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/devel/lib/planar_robot_simulator/test_node: /usr/lib/x86_64-linux-gnu/libopencv_dpm.so.3.2.0
+/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/devel/lib/planar_robot_simulator/test_node: /usr/lib/x86_64-linux-gnu/libopencv_face.so.3.2.0
+/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/devel/lib/planar_robot_simulator/test_node: /usr/lib/x86_64-linux-gnu/libopencv_freetype.so.3.2.0
+/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/devel/lib/planar_robot_simulator/test_node: /usr/lib/x86_64-linux-gnu/libopencv_fuzzy.so.3.2.0
+/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/devel/lib/planar_robot_simulator/test_node: /usr/lib/x86_64-linux-gnu/libopencv_hdf.so.3.2.0
+/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/devel/lib/planar_robot_simulator/test_node: /usr/lib/x86_64-linux-gnu/libopencv_line_descriptor.so.3.2.0
+/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/devel/lib/planar_robot_simulator/test_node: /usr/lib/x86_64-linux-gnu/libopencv_optflow.so.3.2.0
+/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/devel/lib/planar_robot_simulator/test_node: /usr/lib/x86_64-linux-gnu/libopencv_plot.so.3.2.0
+/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/devel/lib/planar_robot_simulator/test_node: /usr/lib/x86_64-linux-gnu/libopencv_reg.so.3.2.0
+/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/devel/lib/planar_robot_simulator/test_node: /usr/lib/x86_64-linux-gnu/libopencv_saliency.so.3.2.0
+/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/devel/lib/planar_robot_simulator/test_node: /usr/lib/x86_64-linux-gnu/libopencv_stereo.so.3.2.0
+/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/devel/lib/planar_robot_simulator/test_node: /usr/lib/x86_64-linux-gnu/libopencv_structured_light.so.3.2.0
+/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/devel/lib/planar_robot_simulator/test_node: /usr/lib/x86_64-linux-gnu/libopencv_surface_matching.so.3.2.0
+/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/devel/lib/planar_robot_simulator/test_node: /usr/lib/x86_64-linux-gnu/libopencv_text.so.3.2.0
+/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/devel/lib/planar_robot_simulator/test_node: /usr/lib/x86_64-linux-gnu/libopencv_ximgproc.so.3.2.0
+/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/devel/lib/planar_robot_simulator/test_node: /usr/lib/x86_64-linux-gnu/libopencv_xobjdetect.so.3.2.0
+/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/devel/lib/planar_robot_simulator/test_node: /usr/lib/x86_64-linux-gnu/libopencv_xphoto.so.3.2.0
+/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/devel/lib/planar_robot_simulator/test_node: /opt/ros/melodic/lib/libroscpp.so
+/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/devel/lib/planar_robot_simulator/test_node: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/devel/lib/planar_robot_simulator/test_node: /opt/ros/melodic/lib/librosconsole.so
+/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/devel/lib/planar_robot_simulator/test_node: /opt/ros/melodic/lib/librosconsole_log4cxx.so
+/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/devel/lib/planar_robot_simulator/test_node: /opt/ros/melodic/lib/librosconsole_backend_interface.so
+/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/devel/lib/planar_robot_simulator/test_node: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/devel/lib/planar_robot_simulator/test_node: /usr/lib/x86_64-linux-gnu/libboost_regex.so
+/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/devel/lib/planar_robot_simulator/test_node: /opt/ros/melodic/lib/libxmlrpcpp.so
+/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/devel/lib/planar_robot_simulator/test_node: /opt/ros/melodic/lib/libroscpp_serialization.so
+/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/devel/lib/planar_robot_simulator/test_node: /opt/ros/melodic/lib/librostime.so
+/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/devel/lib/planar_robot_simulator/test_node: /opt/ros/melodic/lib/libcpp_common.so
+/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/devel/lib/planar_robot_simulator/test_node: /usr/lib/x86_64-linux-gnu/libboost_system.so
+/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/devel/lib/planar_robot_simulator/test_node: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/devel/lib/planar_robot_simulator/test_node: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
+/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/devel/lib/planar_robot_simulator/test_node: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/devel/lib/planar_robot_simulator/test_node: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
+/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/devel/lib/planar_robot_simulator/test_node: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/devel/lib/planar_robot_simulator/test_node: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
+/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/devel/lib/planar_robot_simulator/test_node: /usr/lib/x86_64-linux-gnu/libopencv_video.so.3.2.0
+/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/devel/lib/planar_robot_simulator/test_node: /usr/lib/x86_64-linux-gnu/libopencv_viz.so.3.2.0
+/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/devel/lib/planar_robot_simulator/test_node: /usr/lib/x86_64-linux-gnu/libopencv_phase_unwrapping.so.3.2.0
+/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/devel/lib/planar_robot_simulator/test_node: /usr/lib/x86_64-linux-gnu/libopencv_rgbd.so.3.2.0
+/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/devel/lib/planar_robot_simulator/test_node: /usr/lib/x86_64-linux-gnu/libopencv_calib3d.so.3.2.0
+/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/devel/lib/planar_robot_simulator/test_node: /usr/lib/x86_64-linux-gnu/libopencv_features2d.so.3.2.0
+/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/devel/lib/planar_robot_simulator/test_node: /usr/lib/x86_64-linux-gnu/libopencv_flann.so.3.2.0
+/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/devel/lib/planar_robot_simulator/test_node: /usr/lib/x86_64-linux-gnu/libopencv_objdetect.so.3.2.0
+/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/devel/lib/planar_robot_simulator/test_node: /usr/lib/x86_64-linux-gnu/libopencv_ml.so.3.2.0
+/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/devel/lib/planar_robot_simulator/test_node: /usr/lib/x86_64-linux-gnu/libopencv_highgui.so.3.2.0
+/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/devel/lib/planar_robot_simulator/test_node: /usr/lib/x86_64-linux-gnu/libopencv_photo.so.3.2.0
+/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/devel/lib/planar_robot_simulator/test_node: /usr/lib/x86_64-linux-gnu/libopencv_videoio.so.3.2.0
+/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/devel/lib/planar_robot_simulator/test_node: /usr/lib/x86_64-linux-gnu/libopencv_imgcodecs.so.3.2.0
+/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/devel/lib/planar_robot_simulator/test_node: /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.3.2.0
+/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/devel/lib/planar_robot_simulator/test_node: /usr/lib/x86_64-linux-gnu/libopencv_core.so.3.2.0
+/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/devel/lib/planar_robot_simulator/test_node: planar_robot_simulator/CMakeFiles/test_node.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/devel/lib/planar_robot_simulator/test_node"
+	cd /home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/build/planar_robot_simulator && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/test_node.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-planar_robot_simulator/CMakeFiles/test_node.dir/build: /home/adrienk/Bureau/ros_intro_ws/devel/lib/planar_robot_simulator/test_node
+planar_robot_simulator/CMakeFiles/test_node.dir/build: /home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/devel/lib/planar_robot_simulator/test_node
 
 .PHONY : planar_robot_simulator/CMakeFiles/test_node.dir/build
 
@@ -182,10 +182,10 @@ planar_robot_simulator/CMakeFiles/test_node.dir/requires: planar_robot_simulator
 .PHONY : planar_robot_simulator/CMakeFiles/test_node.dir/requires
 
 planar_robot_simulator/CMakeFiles/test_node.dir/clean:
-	cd /home/adrienk/Bureau/ros_intro_ws/build/planar_robot_simulator && $(CMAKE_COMMAND) -P CMakeFiles/test_node.dir/cmake_clean.cmake
+	cd /home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/build/planar_robot_simulator && $(CMAKE_COMMAND) -P CMakeFiles/test_node.dir/cmake_clean.cmake
 .PHONY : planar_robot_simulator/CMakeFiles/test_node.dir/clean
 
 planar_robot_simulator/CMakeFiles/test_node.dir/depend:
-	cd /home/adrienk/Bureau/ros_intro_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/adrienk/Bureau/ros_intro_ws/src /home/adrienk/Bureau/ros_intro_ws/src/planar_robot_simulator /home/adrienk/Bureau/ros_intro_ws/build /home/adrienk/Bureau/ros_intro_ws/build/planar_robot_simulator /home/adrienk/Bureau/ros_intro_ws/build/planar_robot_simulator/CMakeFiles/test_node.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/src /home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/src/planar_robot_simulator /home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/build /home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/build/planar_robot_simulator /home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/build/planar_robot_simulator/CMakeFiles/test_node.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : planar_robot_simulator/CMakeFiles/test_node.dir/depend
 

@@ -67,14 +67,14 @@ set(planar_robot_simulator_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("TRUE" STREQUAL "TRUE")
-  set(planar_robot_simulator_SOURCE_PREFIX /home/adrienk/Bureau/ros_intro_ws/src/planar_robot_simulator)
-  set(planar_robot_simulator_DEVEL_PREFIX /home/adrienk/Bureau/ros_intro_ws/devel)
+  set(planar_robot_simulator_SOURCE_PREFIX /home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/src/planar_robot_simulator)
+  set(planar_robot_simulator_DEVEL_PREFIX /home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/devel)
   set(planar_robot_simulator_INSTALL_PREFIX "")
   set(planar_robot_simulator_PREFIX ${planar_robot_simulator_DEVEL_PREFIX})
 else()
   set(planar_robot_simulator_SOURCE_PREFIX "")
   set(planar_robot_simulator_DEVEL_PREFIX "")
-  set(planar_robot_simulator_INSTALL_PREFIX /home/adrienk/Bureau/ros_intro_ws/install)
+  set(planar_robot_simulator_INSTALL_PREFIX /home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/install)
   set(planar_robot_simulator_PREFIX ${planar_robot_simulator_INSTALL_PREFIX})
 endif()
 
@@ -91,9 +91,9 @@ endif()
 # flag project as catkin-based to distinguish if a find_package()-ed project is a catkin project
 set(planar_robot_simulator_FOUND_CATKIN_PROJECT TRUE)
 
-if(NOT "/home/adrienk/Bureau/ros_intro_ws/src/planar_robot_simulator/include " STREQUAL " ")
+if(NOT "/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/src/planar_robot_simulator/include " STREQUAL " ")
   set(planar_robot_simulator_INCLUDE_DIRS "")
-  set(_include_dirs "/home/adrienk/Bureau/ros_intro_ws/src/planar_robot_simulator/include")
+  set(_include_dirs "/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/src/planar_robot_simulator/include")
   if(NOT " " STREQUAL " ")
     set(_report "Check the issue tracker '' and consider creating a ticket if the problem has not been reported yet.")
   elseif(NOT " " STREQUAL " ")
@@ -110,7 +110,7 @@ if(NOT "/home/adrienk/Bureau/ros_intro_ws/src/planar_robot_simulator/include " S
         message(FATAL_ERROR "Project 'planar_robot_simulator' specifies '${idir}' as an include dir, which is not found.  It does not exist in '${include}'.  ${_report}")
       endif()
     else()
-      message(FATAL_ERROR "Project 'planar_robot_simulator' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/adrienk/Bureau/ros_intro_ws/src/planar_robot_simulator/${idir}'.  ${_report}")
+      message(FATAL_ERROR "Project 'planar_robot_simulator' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/src/planar_robot_simulator/${idir}'.  ${_report}")
     endif()
     _list_append_unique(planar_robot_simulator_INCLUDE_DIRS ${include})
   endforeach()
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/adrienk/Bureau/ros_intro_ws/devel/lib;/home/adrienk/Bureau/ros_intro_ws/devel/lib;/opt/ros/melodic/lib)
+    foreach(path /home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/devel/lib;/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/devel/lib;/opt/ros/melodic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

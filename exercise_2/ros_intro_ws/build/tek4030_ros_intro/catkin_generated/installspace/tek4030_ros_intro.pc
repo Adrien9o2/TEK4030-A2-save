@@ -1,4 +1,4 @@
-prefix=/home/adrienk/Bureau/ros_intro_ws/install
+prefix=/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/install
 
 Name: tek4030_ros_intro
 Description: Description of tek4030_ros_intro

@@ -7,7 +7,7 @@
       },
       "includePath": [
         "/opt/ros/melodic/include/**",
-        "/home/adrienk/Bureau/ros_intro_ws/src/planar_robot_simulator/include/**",
+        "/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/src/planar_robot_simulator/include/**",
         "/usr/include/**"
       ],
       "name": "ROS",

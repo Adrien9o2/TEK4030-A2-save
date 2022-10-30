@@ -7,4 +7,4 @@
 # new environment variables
 
 # modified environment variables
-export PWD='/home/adrienk/Bureau/ros_intro_ws/build'
+export PWD='/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/build'

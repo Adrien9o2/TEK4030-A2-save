@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/adrienk/Bureau/ros_intro_ws/src
+CMAKE_SOURCE_DIR = /home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/adrienk/Bureau/ros_intro_ws/build
+CMAKE_BINARY_DIR = /home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/build
 
 # Include any dependencies generated for this target.
 include tek4030_ros_intro/CMakeFiles/controller.dir/depend.make
@@ -58,17 +58,17 @@ include tek4030_ros_intro/CMakeFiles/controller.dir/progress.make
 include tek4030_ros_intro/CMakeFiles/controller.dir/flags.make
 
 tek4030_ros_intro/CMakeFiles/controller.dir/src/controller.cpp.o: tek4030_ros_intro/CMakeFiles/controller.dir/flags.make
-tek4030_ros_intro/CMakeFiles/controller.dir/src/controller.cpp.o: /home/adrienk/Bureau/ros_intro_ws/src/tek4030_ros_intro/src/controller.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adrienk/Bureau/ros_intro_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object tek4030_ros_intro/CMakeFiles/controller.dir/src/controller.cpp.o"
-	cd /home/adrienk/Bureau/ros_intro_ws/build/tek4030_ros_intro && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/controller.dir/src/controller.cpp.o -c /home/adrienk/Bureau/ros_intro_ws/src/tek4030_ros_intro/src/controller.cpp
+tek4030_ros_intro/CMakeFiles/controller.dir/src/controller.cpp.o: /home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/src/tek4030_ros_intro/src/controller.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object tek4030_ros_intro/CMakeFiles/controller.dir/src/controller.cpp.o"
+	cd /home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/build/tek4030_ros_intro && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/controller.dir/src/controller.cpp.o -c /home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/src/tek4030_ros_intro/src/controller.cpp
 
 tek4030_ros_intro/CMakeFiles/controller.dir/src/controller.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/controller.dir/src/controller.cpp.i"
-	cd /home/adrienk/Bureau/ros_intro_ws/build/tek4030_ros_intro && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/adrienk/Bureau/ros_intro_ws/src/tek4030_ros_intro/src/controller.cpp > CMakeFiles/controller.dir/src/controller.cpp.i
+	cd /home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/build/tek4030_ros_intro && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/src/tek4030_ros_intro/src/controller.cpp > CMakeFiles/controller.dir/src/controller.cpp.i
 
 tek4030_ros_intro/CMakeFiles/controller.dir/src/controller.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/controller.dir/src/controller.cpp.s"
-	cd /home/adrienk/Bureau/ros_intro_ws/build/tek4030_ros_intro && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adrienk/Bureau/ros_intro_ws/src/tek4030_ros_intro/src/controller.cpp -o CMakeFiles/controller.dir/src/controller.cpp.s
+	cd /home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/build/tek4030_ros_intro && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/src/tek4030_ros_intro/src/controller.cpp -o CMakeFiles/controller.dir/src/controller.cpp.s
 
 tek4030_ros_intro/CMakeFiles/controller.dir/src/controller.cpp.o.requires:
 
@@ -88,92 +88,92 @@ controller_OBJECTS = \
 # External object files for target controller
 controller_EXTERNAL_OBJECTS =
 
-/home/adrienk/Bureau/ros_intro_ws/devel/lib/tek4030_ros_intro/controller: tek4030_ros_intro/CMakeFiles/controller.dir/src/controller.cpp.o
-/home/adrienk/Bureau/ros_intro_ws/devel/lib/tek4030_ros_intro/controller: tek4030_ros_intro/CMakeFiles/controller.dir/build.make
-/home/adrienk/Bureau/ros_intro_ws/devel/lib/tek4030_ros_intro/controller: /opt/ros/melodic/lib/libroscpp.so
-/home/adrienk/Bureau/ros_intro_ws/devel/lib/tek4030_ros_intro/controller: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
-/home/adrienk/Bureau/ros_intro_ws/devel/lib/tek4030_ros_intro/controller: /opt/ros/melodic/lib/librosconsole.so
-/home/adrienk/Bureau/ros_intro_ws/devel/lib/tek4030_ros_intro/controller: /opt/ros/melodic/lib/librosconsole_log4cxx.so
-/home/adrienk/Bureau/ros_intro_ws/devel/lib/tek4030_ros_intro/controller: /opt/ros/melodic/lib/librosconsole_backend_interface.so
-/home/adrienk/Bureau/ros_intro_ws/devel/lib/tek4030_ros_intro/controller: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/home/adrienk/Bureau/ros_intro_ws/devel/lib/tek4030_ros_intro/controller: /usr/lib/x86_64-linux-gnu/libboost_regex.so
-/home/adrienk/Bureau/ros_intro_ws/devel/lib/tek4030_ros_intro/controller: /opt/ros/melodic/lib/libroscpp_serialization.so
-/home/adrienk/Bureau/ros_intro_ws/devel/lib/tek4030_ros_intro/controller: /opt/ros/melodic/lib/libxmlrpcpp.so
-/home/adrienk/Bureau/ros_intro_ws/devel/lib/tek4030_ros_intro/controller: /opt/ros/melodic/lib/librostime.so
-/home/adrienk/Bureau/ros_intro_ws/devel/lib/tek4030_ros_intro/controller: /opt/ros/melodic/lib/libcpp_common.so
-/home/adrienk/Bureau/ros_intro_ws/devel/lib/tek4030_ros_intro/controller: /usr/lib/x86_64-linux-gnu/libboost_system.so
-/home/adrienk/Bureau/ros_intro_ws/devel/lib/tek4030_ros_intro/controller: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-/home/adrienk/Bureau/ros_intro_ws/devel/lib/tek4030_ros_intro/controller: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
-/home/adrienk/Bureau/ros_intro_ws/devel/lib/tek4030_ros_intro/controller: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-/home/adrienk/Bureau/ros_intro_ws/devel/lib/tek4030_ros_intro/controller: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
-/home/adrienk/Bureau/ros_intro_ws/devel/lib/tek4030_ros_intro/controller: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/adrienk/Bureau/ros_intro_ws/devel/lib/tek4030_ros_intro/controller: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
-/home/adrienk/Bureau/ros_intro_ws/devel/lib/tek4030_ros_intro/controller: /home/adrienk/Bureau/ros_intro_ws/devel/lib/libplanar_robot_simulator.so
-/home/adrienk/Bureau/ros_intro_ws/devel/lib/tek4030_ros_intro/controller: /opt/ros/melodic/lib/libroscpp.so
-/home/adrienk/Bureau/ros_intro_ws/devel/lib/tek4030_ros_intro/controller: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
-/home/adrienk/Bureau/ros_intro_ws/devel/lib/tek4030_ros_intro/controller: /opt/ros/melodic/lib/librosconsole.so
-/home/adrienk/Bureau/ros_intro_ws/devel/lib/tek4030_ros_intro/controller: /opt/ros/melodic/lib/librosconsole_log4cxx.so
-/home/adrienk/Bureau/ros_intro_ws/devel/lib/tek4030_ros_intro/controller: /opt/ros/melodic/lib/librosconsole_backend_interface.so
-/home/adrienk/Bureau/ros_intro_ws/devel/lib/tek4030_ros_intro/controller: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/home/adrienk/Bureau/ros_intro_ws/devel/lib/tek4030_ros_intro/controller: /usr/lib/x86_64-linux-gnu/libboost_regex.so
-/home/adrienk/Bureau/ros_intro_ws/devel/lib/tek4030_ros_intro/controller: /opt/ros/melodic/lib/libroscpp_serialization.so
-/home/adrienk/Bureau/ros_intro_ws/devel/lib/tek4030_ros_intro/controller: /opt/ros/melodic/lib/libxmlrpcpp.so
-/home/adrienk/Bureau/ros_intro_ws/devel/lib/tek4030_ros_intro/controller: /opt/ros/melodic/lib/librostime.so
-/home/adrienk/Bureau/ros_intro_ws/devel/lib/tek4030_ros_intro/controller: /opt/ros/melodic/lib/libcpp_common.so
-/home/adrienk/Bureau/ros_intro_ws/devel/lib/tek4030_ros_intro/controller: /usr/lib/x86_64-linux-gnu/libboost_system.so
-/home/adrienk/Bureau/ros_intro_ws/devel/lib/tek4030_ros_intro/controller: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-/home/adrienk/Bureau/ros_intro_ws/devel/lib/tek4030_ros_intro/controller: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
-/home/adrienk/Bureau/ros_intro_ws/devel/lib/tek4030_ros_intro/controller: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-/home/adrienk/Bureau/ros_intro_ws/devel/lib/tek4030_ros_intro/controller: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
-/home/adrienk/Bureau/ros_intro_ws/devel/lib/tek4030_ros_intro/controller: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/adrienk/Bureau/ros_intro_ws/devel/lib/tek4030_ros_intro/controller: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
-/home/adrienk/Bureau/ros_intro_ws/devel/lib/tek4030_ros_intro/controller: /usr/lib/x86_64-linux-gnu/libopencv_shape.so.3.2.0
-/home/adrienk/Bureau/ros_intro_ws/devel/lib/tek4030_ros_intro/controller: /usr/lib/x86_64-linux-gnu/libopencv_stitching.so.3.2.0
-/home/adrienk/Bureau/ros_intro_ws/devel/lib/tek4030_ros_intro/controller: /usr/lib/x86_64-linux-gnu/libopencv_superres.so.3.2.0
-/home/adrienk/Bureau/ros_intro_ws/devel/lib/tek4030_ros_intro/controller: /usr/lib/x86_64-linux-gnu/libopencv_videostab.so.3.2.0
-/home/adrienk/Bureau/ros_intro_ws/devel/lib/tek4030_ros_intro/controller: /usr/lib/x86_64-linux-gnu/libopencv_aruco.so.3.2.0
-/home/adrienk/Bureau/ros_intro_ws/devel/lib/tek4030_ros_intro/controller: /usr/lib/x86_64-linux-gnu/libopencv_bgsegm.so.3.2.0
-/home/adrienk/Bureau/ros_intro_ws/devel/lib/tek4030_ros_intro/controller: /usr/lib/x86_64-linux-gnu/libopencv_bioinspired.so.3.2.0
-/home/adrienk/Bureau/ros_intro_ws/devel/lib/tek4030_ros_intro/controller: /usr/lib/x86_64-linux-gnu/libopencv_ccalib.so.3.2.0
-/home/adrienk/Bureau/ros_intro_ws/devel/lib/tek4030_ros_intro/controller: /usr/lib/x86_64-linux-gnu/libopencv_datasets.so.3.2.0
-/home/adrienk/Bureau/ros_intro_ws/devel/lib/tek4030_ros_intro/controller: /usr/lib/x86_64-linux-gnu/libopencv_dpm.so.3.2.0
-/home/adrienk/Bureau/ros_intro_ws/devel/lib/tek4030_ros_intro/controller: /usr/lib/x86_64-linux-gnu/libopencv_face.so.3.2.0
-/home/adrienk/Bureau/ros_intro_ws/devel/lib/tek4030_ros_intro/controller: /usr/lib/x86_64-linux-gnu/libopencv_freetype.so.3.2.0
-/home/adrienk/Bureau/ros_intro_ws/devel/lib/tek4030_ros_intro/controller: /usr/lib/x86_64-linux-gnu/libopencv_fuzzy.so.3.2.0
-/home/adrienk/Bureau/ros_intro_ws/devel/lib/tek4030_ros_intro/controller: /usr/lib/x86_64-linux-gnu/libopencv_hdf.so.3.2.0
-/home/adrienk/Bureau/ros_intro_ws/devel/lib/tek4030_ros_intro/controller: /usr/lib/x86_64-linux-gnu/libopencv_line_descriptor.so.3.2.0
-/home/adrienk/Bureau/ros_intro_ws/devel/lib/tek4030_ros_intro/controller: /usr/lib/x86_64-linux-gnu/libopencv_optflow.so.3.2.0
-/home/adrienk/Bureau/ros_intro_ws/devel/lib/tek4030_ros_intro/controller: /usr/lib/x86_64-linux-gnu/libopencv_video.so.3.2.0
-/home/adrienk/Bureau/ros_intro_ws/devel/lib/tek4030_ros_intro/controller: /usr/lib/x86_64-linux-gnu/libopencv_plot.so.3.2.0
-/home/adrienk/Bureau/ros_intro_ws/devel/lib/tek4030_ros_intro/controller: /usr/lib/x86_64-linux-gnu/libopencv_reg.so.3.2.0
-/home/adrienk/Bureau/ros_intro_ws/devel/lib/tek4030_ros_intro/controller: /usr/lib/x86_64-linux-gnu/libopencv_saliency.so.3.2.0
-/home/adrienk/Bureau/ros_intro_ws/devel/lib/tek4030_ros_intro/controller: /usr/lib/x86_64-linux-gnu/libopencv_stereo.so.3.2.0
-/home/adrienk/Bureau/ros_intro_ws/devel/lib/tek4030_ros_intro/controller: /usr/lib/x86_64-linux-gnu/libopencv_structured_light.so.3.2.0
-/home/adrienk/Bureau/ros_intro_ws/devel/lib/tek4030_ros_intro/controller: /usr/lib/x86_64-linux-gnu/libopencv_viz.so.3.2.0
-/home/adrienk/Bureau/ros_intro_ws/devel/lib/tek4030_ros_intro/controller: /usr/lib/x86_64-linux-gnu/libopencv_phase_unwrapping.so.3.2.0
-/home/adrienk/Bureau/ros_intro_ws/devel/lib/tek4030_ros_intro/controller: /usr/lib/x86_64-linux-gnu/libopencv_rgbd.so.3.2.0
-/home/adrienk/Bureau/ros_intro_ws/devel/lib/tek4030_ros_intro/controller: /usr/lib/x86_64-linux-gnu/libopencv_surface_matching.so.3.2.0
-/home/adrienk/Bureau/ros_intro_ws/devel/lib/tek4030_ros_intro/controller: /usr/lib/x86_64-linux-gnu/libopencv_text.so.3.2.0
-/home/adrienk/Bureau/ros_intro_ws/devel/lib/tek4030_ros_intro/controller: /usr/lib/x86_64-linux-gnu/libopencv_ximgproc.so.3.2.0
-/home/adrienk/Bureau/ros_intro_ws/devel/lib/tek4030_ros_intro/controller: /usr/lib/x86_64-linux-gnu/libopencv_calib3d.so.3.2.0
-/home/adrienk/Bureau/ros_intro_ws/devel/lib/tek4030_ros_intro/controller: /usr/lib/x86_64-linux-gnu/libopencv_features2d.so.3.2.0
-/home/adrienk/Bureau/ros_intro_ws/devel/lib/tek4030_ros_intro/controller: /usr/lib/x86_64-linux-gnu/libopencv_flann.so.3.2.0
-/home/adrienk/Bureau/ros_intro_ws/devel/lib/tek4030_ros_intro/controller: /usr/lib/x86_64-linux-gnu/libopencv_xobjdetect.so.3.2.0
-/home/adrienk/Bureau/ros_intro_ws/devel/lib/tek4030_ros_intro/controller: /usr/lib/x86_64-linux-gnu/libopencv_objdetect.so.3.2.0
-/home/adrienk/Bureau/ros_intro_ws/devel/lib/tek4030_ros_intro/controller: /usr/lib/x86_64-linux-gnu/libopencv_ml.so.3.2.0
-/home/adrienk/Bureau/ros_intro_ws/devel/lib/tek4030_ros_intro/controller: /usr/lib/x86_64-linux-gnu/libopencv_xphoto.so.3.2.0
-/home/adrienk/Bureau/ros_intro_ws/devel/lib/tek4030_ros_intro/controller: /usr/lib/x86_64-linux-gnu/libopencv_highgui.so.3.2.0
-/home/adrienk/Bureau/ros_intro_ws/devel/lib/tek4030_ros_intro/controller: /usr/lib/x86_64-linux-gnu/libopencv_photo.so.3.2.0
-/home/adrienk/Bureau/ros_intro_ws/devel/lib/tek4030_ros_intro/controller: /usr/lib/x86_64-linux-gnu/libopencv_videoio.so.3.2.0
-/home/adrienk/Bureau/ros_intro_ws/devel/lib/tek4030_ros_intro/controller: /usr/lib/x86_64-linux-gnu/libopencv_imgcodecs.so.3.2.0
-/home/adrienk/Bureau/ros_intro_ws/devel/lib/tek4030_ros_intro/controller: /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.3.2.0
-/home/adrienk/Bureau/ros_intro_ws/devel/lib/tek4030_ros_intro/controller: /usr/lib/x86_64-linux-gnu/libopencv_core.so.3.2.0
-/home/adrienk/Bureau/ros_intro_ws/devel/lib/tek4030_ros_intro/controller: tek4030_ros_intro/CMakeFiles/controller.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/adrienk/Bureau/ros_intro_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/adrienk/Bureau/ros_intro_ws/devel/lib/tek4030_ros_intro/controller"
-	cd /home/adrienk/Bureau/ros_intro_ws/build/tek4030_ros_intro && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/controller.dir/link.txt --verbose=$(VERBOSE)
+/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/devel/lib/tek4030_ros_intro/controller: tek4030_ros_intro/CMakeFiles/controller.dir/src/controller.cpp.o
+/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/devel/lib/tek4030_ros_intro/controller: tek4030_ros_intro/CMakeFiles/controller.dir/build.make
+/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/devel/lib/tek4030_ros_intro/controller: /opt/ros/melodic/lib/libroscpp.so
+/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/devel/lib/tek4030_ros_intro/controller: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/devel/lib/tek4030_ros_intro/controller: /opt/ros/melodic/lib/librosconsole.so
+/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/devel/lib/tek4030_ros_intro/controller: /opt/ros/melodic/lib/librosconsole_log4cxx.so
+/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/devel/lib/tek4030_ros_intro/controller: /opt/ros/melodic/lib/librosconsole_backend_interface.so
+/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/devel/lib/tek4030_ros_intro/controller: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/devel/lib/tek4030_ros_intro/controller: /usr/lib/x86_64-linux-gnu/libboost_regex.so
+/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/devel/lib/tek4030_ros_intro/controller: /opt/ros/melodic/lib/libroscpp_serialization.so
+/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/devel/lib/tek4030_ros_intro/controller: /opt/ros/melodic/lib/libxmlrpcpp.so
+/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/devel/lib/tek4030_ros_intro/controller: /opt/ros/melodic/lib/librostime.so
+/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/devel/lib/tek4030_ros_intro/controller: /opt/ros/melodic/lib/libcpp_common.so
+/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/devel/lib/tek4030_ros_intro/controller: /usr/lib/x86_64-linux-gnu/libboost_system.so
+/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/devel/lib/tek4030_ros_intro/controller: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/devel/lib/tek4030_ros_intro/controller: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
+/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/devel/lib/tek4030_ros_intro/controller: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/devel/lib/tek4030_ros_intro/controller: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
+/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/devel/lib/tek4030_ros_intro/controller: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/devel/lib/tek4030_ros_intro/controller: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
+/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/devel/lib/tek4030_ros_intro/controller: /home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/devel/lib/libplanar_robot_simulator.so
+/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/devel/lib/tek4030_ros_intro/controller: /opt/ros/melodic/lib/libroscpp.so
+/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/devel/lib/tek4030_ros_intro/controller: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/devel/lib/tek4030_ros_intro/controller: /opt/ros/melodic/lib/librosconsole.so
+/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/devel/lib/tek4030_ros_intro/controller: /opt/ros/melodic/lib/librosconsole_log4cxx.so
+/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/devel/lib/tek4030_ros_intro/controller: /opt/ros/melodic/lib/librosconsole_backend_interface.so
+/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/devel/lib/tek4030_ros_intro/controller: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/devel/lib/tek4030_ros_intro/controller: /usr/lib/x86_64-linux-gnu/libboost_regex.so
+/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/devel/lib/tek4030_ros_intro/controller: /opt/ros/melodic/lib/libroscpp_serialization.so
+/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/devel/lib/tek4030_ros_intro/controller: /opt/ros/melodic/lib/libxmlrpcpp.so
+/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/devel/lib/tek4030_ros_intro/controller: /opt/ros/melodic/lib/librostime.so
+/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/devel/lib/tek4030_ros_intro/controller: /opt/ros/melodic/lib/libcpp_common.so
+/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/devel/lib/tek4030_ros_intro/controller: /usr/lib/x86_64-linux-gnu/libboost_system.so
+/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/devel/lib/tek4030_ros_intro/controller: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/devel/lib/tek4030_ros_intro/controller: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
+/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/devel/lib/tek4030_ros_intro/controller: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/devel/lib/tek4030_ros_intro/controller: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
+/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/devel/lib/tek4030_ros_intro/controller: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/devel/lib/tek4030_ros_intro/controller: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
+/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/devel/lib/tek4030_ros_intro/controller: /usr/lib/x86_64-linux-gnu/libopencv_shape.so.3.2.0
+/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/devel/lib/tek4030_ros_intro/controller: /usr/lib/x86_64-linux-gnu/libopencv_stitching.so.3.2.0
+/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/devel/lib/tek4030_ros_intro/controller: /usr/lib/x86_64-linux-gnu/libopencv_superres.so.3.2.0
+/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/devel/lib/tek4030_ros_intro/controller: /usr/lib/x86_64-linux-gnu/libopencv_videostab.so.3.2.0
+/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/devel/lib/tek4030_ros_intro/controller: /usr/lib/x86_64-linux-gnu/libopencv_aruco.so.3.2.0
+/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/devel/lib/tek4030_ros_intro/controller: /usr/lib/x86_64-linux-gnu/libopencv_bgsegm.so.3.2.0
+/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/devel/lib/tek4030_ros_intro/controller: /usr/lib/x86_64-linux-gnu/libopencv_bioinspired.so.3.2.0
+/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/devel/lib/tek4030_ros_intro/controller: /usr/lib/x86_64-linux-gnu/libopencv_ccalib.so.3.2.0
+/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/devel/lib/tek4030_ros_intro/controller: /usr/lib/x86_64-linux-gnu/libopencv_datasets.so.3.2.0
+/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/devel/lib/tek4030_ros_intro/controller: /usr/lib/x86_64-linux-gnu/libopencv_dpm.so.3.2.0
+/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/devel/lib/tek4030_ros_intro/controller: /usr/lib/x86_64-linux-gnu/libopencv_face.so.3.2.0
+/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/devel/lib/tek4030_ros_intro/controller: /usr/lib/x86_64-linux-gnu/libopencv_freetype.so.3.2.0
+/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/devel/lib/tek4030_ros_intro/controller: /usr/lib/x86_64-linux-gnu/libopencv_fuzzy.so.3.2.0
+/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/devel/lib/tek4030_ros_intro/controller: /usr/lib/x86_64-linux-gnu/libopencv_hdf.so.3.2.0
+/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/devel/lib/tek4030_ros_intro/controller: /usr/lib/x86_64-linux-gnu/libopencv_line_descriptor.so.3.2.0
+/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/devel/lib/tek4030_ros_intro/controller: /usr/lib/x86_64-linux-gnu/libopencv_optflow.so.3.2.0
+/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/devel/lib/tek4030_ros_intro/controller: /usr/lib/x86_64-linux-gnu/libopencv_video.so.3.2.0
+/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/devel/lib/tek4030_ros_intro/controller: /usr/lib/x86_64-linux-gnu/libopencv_plot.so.3.2.0
+/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/devel/lib/tek4030_ros_intro/controller: /usr/lib/x86_64-linux-gnu/libopencv_reg.so.3.2.0
+/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/devel/lib/tek4030_ros_intro/controller: /usr/lib/x86_64-linux-gnu/libopencv_saliency.so.3.2.0
+/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/devel/lib/tek4030_ros_intro/controller: /usr/lib/x86_64-linux-gnu/libopencv_stereo.so.3.2.0
+/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/devel/lib/tek4030_ros_intro/controller: /usr/lib/x86_64-linux-gnu/libopencv_structured_light.so.3.2.0
+/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/devel/lib/tek4030_ros_intro/controller: /usr/lib/x86_64-linux-gnu/libopencv_viz.so.3.2.0
+/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/devel/lib/tek4030_ros_intro/controller: /usr/lib/x86_64-linux-gnu/libopencv_phase_unwrapping.so.3.2.0
+/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/devel/lib/tek4030_ros_intro/controller: /usr/lib/x86_64-linux-gnu/libopencv_rgbd.so.3.2.0
+/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/devel/lib/tek4030_ros_intro/controller: /usr/lib/x86_64-linux-gnu/libopencv_surface_matching.so.3.2.0
+/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/devel/lib/tek4030_ros_intro/controller: /usr/lib/x86_64-linux-gnu/libopencv_text.so.3.2.0
+/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/devel/lib/tek4030_ros_intro/controller: /usr/lib/x86_64-linux-gnu/libopencv_ximgproc.so.3.2.0
+/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/devel/lib/tek4030_ros_intro/controller: /usr/lib/x86_64-linux-gnu/libopencv_calib3d.so.3.2.0
+/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/devel/lib/tek4030_ros_intro/controller: /usr/lib/x86_64-linux-gnu/libopencv_features2d.so.3.2.0
+/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/devel/lib/tek4030_ros_intro/controller: /usr/lib/x86_64-linux-gnu/libopencv_flann.so.3.2.0
+/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/devel/lib/tek4030_ros_intro/controller: /usr/lib/x86_64-linux-gnu/libopencv_xobjdetect.so.3.2.0
+/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/devel/lib/tek4030_ros_intro/controller: /usr/lib/x86_64-linux-gnu/libopencv_objdetect.so.3.2.0
+/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/devel/lib/tek4030_ros_intro/controller: /usr/lib/x86_64-linux-gnu/libopencv_ml.so.3.2.0
+/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/devel/lib/tek4030_ros_intro/controller: /usr/lib/x86_64-linux-gnu/libopencv_xphoto.so.3.2.0
+/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/devel/lib/tek4030_ros_intro/controller: /usr/lib/x86_64-linux-gnu/libopencv_highgui.so.3.2.0
+/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/devel/lib/tek4030_ros_intro/controller: /usr/lib/x86_64-linux-gnu/libopencv_photo.so.3.2.0
+/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/devel/lib/tek4030_ros_intro/controller: /usr/lib/x86_64-linux-gnu/libopencv_videoio.so.3.2.0
+/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/devel/lib/tek4030_ros_intro/controller: /usr/lib/x86_64-linux-gnu/libopencv_imgcodecs.so.3.2.0
+/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/devel/lib/tek4030_ros_intro/controller: /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.3.2.0
+/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/devel/lib/tek4030_ros_intro/controller: /usr/lib/x86_64-linux-gnu/libopencv_core.so.3.2.0
+/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/devel/lib/tek4030_ros_intro/controller: tek4030_ros_intro/CMakeFiles/controller.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/devel/lib/tek4030_ros_intro/controller"
+	cd /home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/build/tek4030_ros_intro && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/controller.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-tek4030_ros_intro/CMakeFiles/controller.dir/build: /home/adrienk/Bureau/ros_intro_ws/devel/lib/tek4030_ros_intro/controller
+tek4030_ros_intro/CMakeFiles/controller.dir/build: /home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/devel/lib/tek4030_ros_intro/controller
 
 .PHONY : tek4030_ros_intro/CMakeFiles/controller.dir/build
 
@@ -182,10 +182,10 @@ tek4030_ros_intro/CMakeFiles/controller.dir/requires: tek4030_ros_intro/CMakeFil
 .PHONY : tek4030_ros_intro/CMakeFiles/controller.dir/requires
 
 tek4030_ros_intro/CMakeFiles/controller.dir/clean:
-	cd /home/adrienk/Bureau/ros_intro_ws/build/tek4030_ros_intro && $(CMAKE_COMMAND) -P CMakeFiles/controller.dir/cmake_clean.cmake
+	cd /home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/build/tek4030_ros_intro && $(CMAKE_COMMAND) -P CMakeFiles/controller.dir/cmake_clean.cmake
 .PHONY : tek4030_ros_intro/CMakeFiles/controller.dir/clean
 
 tek4030_ros_intro/CMakeFiles/controller.dir/depend:
-	cd /home/adrienk/Bureau/ros_intro_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/adrienk/Bureau/ros_intro_ws/src /home/adrienk/Bureau/ros_intro_ws/src/tek4030_ros_intro /home/adrienk/Bureau/ros_intro_ws/build /home/adrienk/Bureau/ros_intro_ws/build/tek4030_ros_intro /home/adrienk/Bureau/ros_intro_ws/build/tek4030_ros_intro/CMakeFiles/controller.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/src /home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/src/tek4030_ros_intro /home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/build /home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/build/tek4030_ros_intro /home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/build/tek4030_ros_intro/CMakeFiles/controller.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : tek4030_ros_intro/CMakeFiles/controller.dir/depend
 

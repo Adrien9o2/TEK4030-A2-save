@@ -1,8 +1,8 @@
-# Install script for directory: /home/adrienk/Bureau/ros_intro_ws/src/tek4030_ros_intro
+# Install script for directory: /home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/src/tek4030_ros_intro
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/adrienk/Bureau/ros_intro_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,17 +38,17 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/adrienk/Bureau/ros_intro_ws/build/tek4030_ros_intro/catkin_generated/installspace/tek4030_ros_intro.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/build/tek4030_ros_intro/catkin_generated/installspace/tek4030_ros_intro.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/tek4030_ros_intro/cmake" TYPE FILE FILES
-    "/home/adrienk/Bureau/ros_intro_ws/build/tek4030_ros_intro/catkin_generated/installspace/tek4030_ros_introConfig.cmake"
-    "/home/adrienk/Bureau/ros_intro_ws/build/tek4030_ros_intro/catkin_generated/installspace/tek4030_ros_introConfig-version.cmake"
+    "/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/build/tek4030_ros_intro/catkin_generated/installspace/tek4030_ros_introConfig.cmake"
+    "/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/build/tek4030_ros_intro/catkin_generated/installspace/tek4030_ros_introConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/tek4030_ros_intro" TYPE FILE FILES "/home/adrienk/Bureau/ros_intro_ws/src/tek4030_ros_intro/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/tek4030_ros_intro" TYPE FILE FILES "/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/src/tek4030_ros_intro/package.xml")
 endif()
 
