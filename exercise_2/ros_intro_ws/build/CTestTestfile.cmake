@@ -7,3 +7,8 @@
 subdirs("gtest")
 subdirs("planar_robot_simulator")
 subdirs("tek4030_ros_intro")
+subdirs("tek4030_visual_servoing/tek4030_visual_servoing")
+subdirs("tek4030_visual_servoing/tek4030_visual_servoing_camera_controller")
+subdirs("tek4030_visual_servoing/tek4030_visual_servoing_gazebo")
+subdirs("tek4030_visual_servoing/tek4030_visual_servoing_msgs")
+subdirs("tek4030_visual_servoing/tek4030_visual_servoing_point_tracking")

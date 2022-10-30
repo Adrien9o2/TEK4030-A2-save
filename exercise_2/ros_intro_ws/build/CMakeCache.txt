@@ -311,8 +311,38 @@ _gtest_SOURCES:FILEPATH=/usr/src/gtest/src/gtest.cc
 //The directory containing a CMake configuration file for catkin.
 catkin_DIR:PATH=/opt/ros/melodic/share/catkin/cmake
 
+//The directory containing a CMake configuration file for class_loader.
+class_loader_DIR:PATH=/opt/ros/melodic/share/class_loader/cmake
+
 //The directory containing a CMake configuration file for cpp_common.
 cpp_common_DIR:PATH=/opt/ros/melodic/share/cpp_common/cmake
+
+//The directory containing a CMake configuration file for cv_bridge.
+cv_bridge_DIR:PATH=/opt/ros/melodic/share/cv_bridge/cmake
+
+//The directory containing a CMake configuration file for eigen_conversions.
+eigen_conversions_DIR:PATH=/opt/ros/melodic/share/eigen_conversions/cmake
+
+//The directory containing a CMake configuration file for gencpp.
+gencpp_DIR:PATH=/opt/ros/melodic/share/gencpp/cmake
+
+//The directory containing a CMake configuration file for geneus.
+geneus_DIR:PATH=/opt/ros/melodic/share/geneus/cmake
+
+//The directory containing a CMake configuration file for genlisp.
+genlisp_DIR:PATH=/opt/ros/melodic/share/genlisp/cmake
+
+//The directory containing a CMake configuration file for genmsg.
+genmsg_DIR:PATH=/opt/ros/melodic/share/genmsg/cmake
+
+//The directory containing a CMake configuration file for gennodejs.
+gennodejs_DIR:PATH=/opt/ros/melodic/share/gennodejs/cmake
+
+//The directory containing a CMake configuration file for genpy.
+genpy_DIR:PATH=/opt/ros/melodic/share/genpy/cmake
+
+//The directory containing a CMake configuration file for geometry_msgs.
+geometry_msgs_DIR:PATH=/opt/ros/melodic/share/geometry_msgs/cmake
 
 //Value Computed by CMake
 gmock_BINARY_DIR:STATIC=/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/build/gtest/googlemock
@@ -330,7 +360,7 @@ gmock_build_tests:BOOL=OFF
 gmock_main_LIB_DEPENDS:STATIC=general;-lpthread;
 
 //Value Computed by CMake
-googletest-distribution_BINARY_DIR:STATIC=/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/ros_intro_ws/build/gtest
+googletest-distribution_BINARY_DIR:STATIC=/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/build/gtest
 
 //Value Computed by CMake
 googletest-distribution_SOURCE_DIR:STATIC=/usr/src/googletest
@@ -363,8 +393,17 @@ gtest_hide_internal_symbols:BOOL=OFF
 //Dependencies for the target
 gtest_main_LIB_DEPENDS:STATIC=general;-lpthread;general;gtest;
 
+//The directory containing a CMake configuration file for image_transport.
+image_transport_DIR:PATH=/opt/ros/melodic/share/image_transport/cmake
+
 //Path to a library.
-lib:FILEPATH=/opt/ros/melodic/lib/libxmlrpcpp.so
+lib:FILEPATH=/opt/ros/melodic/lib/libeigen_conversions.so
+
+//The directory containing a CMake configuration file for message_filters.
+message_filters_DIR:PATH=/opt/ros/melodic/share/message_filters/cmake
+
+//The directory containing a CMake configuration file for message_generation.
+message_generation_DIR:PATH=/opt/ros/melodic/share/message_generation/cmake
 
 //The directory containing a CMake configuration file for message_runtime.
 message_runtime_DIR:PATH=/opt/ros/melodic/share/message_runtime/cmake
@@ -381,6 +420,9 @@ planar_robot_simulator_LIB_DEPENDS:STATIC=general;/opt/ros/melodic/lib/libroscpp
 //Value Computed by CMake
 planar_robot_simulator_SOURCE_DIR:STATIC=/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/src/planar_robot_simulator
 
+//The directory containing a CMake configuration file for pluginlib.
+pluginlib_DIR:PATH=/opt/ros/melodic/share/pluginlib/cmake
+
 //The directory containing a CMake configuration file for rosconsole.
 rosconsole_DIR:PATH=/opt/ros/melodic/share/rosconsole/cmake
 
@@ -396,8 +438,20 @@ roscpp_traits_DIR:PATH=/opt/ros/melodic/share/roscpp_traits/cmake
 //The directory containing a CMake configuration file for rosgraph_msgs.
 rosgraph_msgs_DIR:PATH=/opt/ros/melodic/share/rosgraph_msgs/cmake
 
+//The directory containing a CMake configuration file for roslib.
+roslib_DIR:PATH=/opt/ros/melodic/share/roslib/cmake
+
+//The directory containing a CMake configuration file for rospack.
+rospack_DIR:PATH=/opt/ros/melodic/share/rospack/cmake
+
+//The directory containing a CMake configuration file for rospy.
+rospy_DIR:PATH=/opt/ros/melodic/share/rospy/cmake
+
 //The directory containing a CMake configuration file for rostime.
 rostime_DIR:PATH=/opt/ros/melodic/share/rostime/cmake
+
+//The directory containing a CMake configuration file for sensor_msgs.
+sensor_msgs_DIR:PATH=/opt/ros/melodic/share/sensor_msgs/cmake
 
 //The directory containing a CMake configuration file for std_msgs.
 std_msgs_DIR:PATH=/opt/ros/melodic/share/std_msgs/cmake
@@ -407,6 +461,39 @@ tek4030_ros_intro_BINARY_DIR:STATIC=/home/adrienk/TEK4030-A2/exercise_2/ros_intr
 
 //Value Computed by CMake
 tek4030_ros_intro_SOURCE_DIR:STATIC=/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/src/tek4030_ros_intro
+
+//Value Computed by CMake
+tek4030_visual_servoing_BINARY_DIR:STATIC=/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/build/tek4030_visual_servoing/tek4030_visual_servoing
+
+//Value Computed by CMake
+tek4030_visual_servoing_SOURCE_DIR:STATIC=/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/src/tek4030_visual_servoing/tek4030_visual_servoing
+
+//Value Computed by CMake
+tek4030_visual_servoing_camera_controller_BINARY_DIR:STATIC=/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/build/tek4030_visual_servoing/tek4030_visual_servoing_camera_controller
+
+//Value Computed by CMake
+tek4030_visual_servoing_camera_controller_SOURCE_DIR:STATIC=/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/src/tek4030_visual_servoing/tek4030_visual_servoing_camera_controller
+
+//Value Computed by CMake
+tek4030_visual_servoing_gazebo_BINARY_DIR:STATIC=/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/build/tek4030_visual_servoing/tek4030_visual_servoing_gazebo
+
+//Value Computed by CMake
+tek4030_visual_servoing_gazebo_SOURCE_DIR:STATIC=/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/src/tek4030_visual_servoing/tek4030_visual_servoing_gazebo
+
+//Value Computed by CMake
+tek4030_visual_servoing_msgs_BINARY_DIR:STATIC=/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/build/tek4030_visual_servoing/tek4030_visual_servoing_msgs
+
+//The directory containing a CMake configuration file for tek4030_visual_servoing_msgs.
+tek4030_visual_servoing_msgs_DIR:PATH=/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/devel/share/tek4030_visual_servoing_msgs/cmake
+
+//Value Computed by CMake
+tek4030_visual_servoing_msgs_SOURCE_DIR:STATIC=/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/src/tek4030_visual_servoing/tek4030_visual_servoing_msgs
+
+//Value Computed by CMake
+tek4030_visual_servoing_point_tracking_BINARY_DIR:STATIC=/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/build/tek4030_visual_servoing/tek4030_visual_servoing_point_tracking
+
+//Value Computed by CMake
+tek4030_visual_servoing_point_tracking_SOURCE_DIR:STATIC=/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/src/tek4030_visual_servoing/tek4030_visual_servoing_point_tracking
 
 //The directory containing a CMake configuration file for xmlrpcpp.
 xmlrpcpp_DIR:PATH=/opt/ros/melodic/share/xmlrpcpp/cmake
@@ -533,7 +620,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=6
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=11
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
@@ -575,7 +662,7 @@ CMAKE_UNAME:INTERNAL=/bin/uname
 //ADVANCED property for variable: CMAKE_VERBOSE_MAKEFILE
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
 //Details about finding OpenCV
-FIND_PACKAGE_MESSAGE_DETAILS_OpenCV:INTERNAL=[/usr][v3.2.0(3)]
+FIND_PACKAGE_MESSAGE_DETAILS_OpenCV:INTERNAL=[/usr][cfound components:  core highgui imgproc ][v3.2.0(3.2)]
 //Details about finding PythonInterp
 FIND_PACKAGE_MESSAGE_DETAILS_PythonInterp:INTERNAL=[/usr/bin/python2][v2.7.17()]
 //Details about finding Threads
