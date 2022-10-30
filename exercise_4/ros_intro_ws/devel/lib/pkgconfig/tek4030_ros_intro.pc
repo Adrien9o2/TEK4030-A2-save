@@ -1,0 +1,8 @@
+prefix=/home/adrienk/Bureau/ros_intro_ws/devel
+
+Name: tek4030_ros_intro
+Description: Description of tek4030_ros_intro
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

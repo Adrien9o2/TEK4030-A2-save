@@ -1,0 +1,2 @@
+planar_robot_simulator:tek4030_ros_intro
+-DCATKIN_DEVEL_PREFIX=/home/adrienk/Bureau/ros_intro_ws/devel -DCMAKE_INSTALL_PREFIX=/home/adrienk/Bureau/ros_intro_ws/install -G Unix Makefiles
