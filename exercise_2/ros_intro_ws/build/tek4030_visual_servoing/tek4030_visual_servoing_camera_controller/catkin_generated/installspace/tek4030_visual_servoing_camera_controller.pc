@@ -5,4 +5,4 @@ Description: Description of tek4030_visual_servoing_camera_controller
 Version: 0.0.0
 Cflags: -I${prefix}/include
 Libs: -L${prefix}/lib 
-Requires: 
+Requires: tek4030_visual_servoing_msgs

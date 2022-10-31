@@ -5,10 +5,8 @@
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.
 subdirs("gtest")
-subdirs("planar_robot_simulator")
-subdirs("tek4030_ros_intro")
 subdirs("tek4030_visual_servoing/tek4030_visual_servoing")
-subdirs("tek4030_visual_servoing/tek4030_visual_servoing_camera_controller")
 subdirs("tek4030_visual_servoing/tek4030_visual_servoing_gazebo")
 subdirs("tek4030_visual_servoing/tek4030_visual_servoing_msgs")
+subdirs("tek4030_visual_servoing/tek4030_visual_servoing_camera_controller")
 subdirs("tek4030_visual_servoing/tek4030_visual_servoing_point_tracking")

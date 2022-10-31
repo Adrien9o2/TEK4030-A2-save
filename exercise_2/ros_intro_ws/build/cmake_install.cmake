@@ -131,12 +131,10 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/build/gtest/cmake_install.cmake")
-  include("/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/build/planar_robot_simulator/cmake_install.cmake")
-  include("/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/build/tek4030_ros_intro/cmake_install.cmake")
   include("/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/build/tek4030_visual_servoing/tek4030_visual_servoing/cmake_install.cmake")
-  include("/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/build/tek4030_visual_servoing/tek4030_visual_servoing_camera_controller/cmake_install.cmake")
   include("/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/build/tek4030_visual_servoing/tek4030_visual_servoing_gazebo/cmake_install.cmake")
   include("/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/build/tek4030_visual_servoing/tek4030_visual_servoing_msgs/cmake_install.cmake")
+  include("/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/build/tek4030_visual_servoing/tek4030_visual_servoing_camera_controller/cmake_install.cmake")
   include("/home/adrienk/TEK4030-A2/exercise_2/ros_intro_ws/build/tek4030_visual_servoing/tek4030_visual_servoing_point_tracking/cmake_install.cmake")
 
 endif()
