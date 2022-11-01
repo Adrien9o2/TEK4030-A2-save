@@ -51,6 +51,10 @@ cv_bridge/cv_bridge.h
 -
 iostream
 -
+string
+-
+typeinfo
+-
 
 /opt/ros/melodic/include/cv_bridge/cv_bridge.h
 sensor_msgs/Image.h
