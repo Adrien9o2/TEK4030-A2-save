@@ -74,6 +74,7 @@ tek4030_visual_servoing/tek4030_visual_servoing_camera_controller/CMakeFiles/con
  /opt/ros/melodic/include/sensor_msgs/CompressedImage.h
  /opt/ros/melodic/include/sensor_msgs/Image.h
  /opt/ros/melodic/include/sensor_msgs/image_encodings.h
+ /opt/ros/melodic/include/std_msgs/Float64.h
  /opt/ros/melodic/include/std_msgs/Float64MultiArray.h
  /opt/ros/melodic/include/std_msgs/Header.h
  /opt/ros/melodic/include/std_msgs/MultiArrayDimension.h

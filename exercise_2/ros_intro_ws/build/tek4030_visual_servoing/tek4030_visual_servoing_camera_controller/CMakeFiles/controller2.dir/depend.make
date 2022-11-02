@@ -73,6 +73,7 @@ tek4030_visual_servoing/tek4030_visual_servoing_camera_controller/CMakeFiles/con
 tek4030_visual_servoing/tek4030_visual_servoing_camera_controller/CMakeFiles/controller2.dir/src/controller2.cpp.o: /opt/ros/melodic/include/sensor_msgs/CompressedImage.h
 tek4030_visual_servoing/tek4030_visual_servoing_camera_controller/CMakeFiles/controller2.dir/src/controller2.cpp.o: /opt/ros/melodic/include/sensor_msgs/Image.h
 tek4030_visual_servoing/tek4030_visual_servoing_camera_controller/CMakeFiles/controller2.dir/src/controller2.cpp.o: /opt/ros/melodic/include/sensor_msgs/image_encodings.h
+tek4030_visual_servoing/tek4030_visual_servoing_camera_controller/CMakeFiles/controller2.dir/src/controller2.cpp.o: /opt/ros/melodic/include/std_msgs/Float64.h
 tek4030_visual_servoing/tek4030_visual_servoing_camera_controller/CMakeFiles/controller2.dir/src/controller2.cpp.o: /opt/ros/melodic/include/std_msgs/Float64MultiArray.h
 tek4030_visual_servoing/tek4030_visual_servoing_camera_controller/CMakeFiles/controller2.dir/src/controller2.cpp.o: /opt/ros/melodic/include/std_msgs/Header.h
 tek4030_visual_servoing/tek4030_visual_servoing_camera_controller/CMakeFiles/controller2.dir/src/controller2.cpp.o: /opt/ros/melodic/include/std_msgs/MultiArrayDimension.h
